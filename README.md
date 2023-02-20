@@ -8,8 +8,8 @@
 	- Planning  
 		- Issues:  
 			- [ ] Milestone 1: HTML, CSS, Figma  
-				- [ ] Bootstrap TailwindCSS  
-				- [ ] Validate initial push to Vercel  
+				- [x] Bootstrap TailwindCSS  
+				- [x] Validate initial push to Vercel  
 				- [x] Figma prototype mock up  
 					- Frame 1 - Main page  
 					- Frame 2 - Community  
