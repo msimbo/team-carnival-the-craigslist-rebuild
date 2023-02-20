@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "scripts": {
+    "dev:serve": "live-server .",
+    "tw:watch": "npx tailwindcss -i ./src/tailwind.css -o ./dist/styles.css --watch"
+  }
+}
