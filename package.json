@@ -5,5 +5,8 @@
   "scripts": {
     "dev:serve": "live-server .",
     "tw:watch": "npx tailwindcss -i ./src/tailwind.css -o ./dist/styles.css --watch"
+  },
+  "dependencies": {
+    "daisyui": "^2.51.1"
   }
 }
