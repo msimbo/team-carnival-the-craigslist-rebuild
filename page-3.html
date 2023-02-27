@@ -5,7 +5,7 @@
     <link href="/dist/styles.css" rel="stylesheet">
     <title>Craigslist Rebuild</title>
   </head>
-  <body style="margin-left: 10%; margin-right: 10%; border: solid fuchsia;">
+  <body style="margin-left: 10%; margin-right: 10%; border: solid fuchsia; height: 100%">
     <header class="" style="width: 100%; height: 10%;">
       <div class="" style="display: flex; justify-content: space-between; align-items: center;">
          <div id="left" class="header-left" style="">
@@ -28,7 +28,7 @@
           </div>
       </div>
     </header>
-<main class="" style="display: flex; align-content: space-between; grid-row: auto">
+<main class="" style="display: flex; align-content: space-between; grid-row: auto; background-color: whitesmoke">
       <div class="columns-left" style="width: 15%; text-align: left; padding: 20px; margin-left: 10px">
               <h3 class="" style="color: fuchsia; margin: 10px; font-size: xx-large; text-align: center">Archives</h3>
               <ul class="" style="margin: 10px; color: darkmagenta; font-size: large">
@@ -76,44 +76,69 @@
 </main>
     <footer style="width: 100%; height: 33%; background-color: fuchsia; color: white; padding: 6px;">
         <div style="display: flex">
-              <div class="footer-left" style="margin-right: 24px; margin-left: 24px; display: grid">
-                      <h4 style="font-size: xx-large; margin-top: 20px; padding: 20px">Craigslist</h4>
-                      <div class="" style="display: flex; border: solid white; height: 50%; border-radius: 5%; padding-bottom: 10%">
+              <div class="footer-left" style="margin-right: 24px; margin-left: 24px;">
+                      <h4 style="font-size: xx-large; margin-top: 20px; padding: 20px;">Craigslist</h4>
+                      <div class="" style="display: flex; border: solid white; border-radius: 5%; padding-bottom: 5%">
                           <img src="https://cdn-icons-png.flaticon.com/512/732/732065.png" alt="" style="width: 20px; height: 25px; align-items: center; margin: 10px" class="">
-                          <div style="padding-bottom: 25px; padding-left: 10px; margin-bottom: 10px">
+                          <div style="padding-left: 10px; margin-bottom: 5px">
                               <p style="font-size: medium">Get it on</p>
                               <p style="font-size: medium; font-weight: bold;">Google Play</p>
                           </div>
                       </div>
-                      <div class="" style="display: flex; border: solid white; height: 50%; border-radius: 5%; padding-bottom: 10%">
-                          <img src="https://www.pngfind.com/pngs/m/65-652094_apple-logo-with-steve-jobs-png-download-white.png" alt=""  style="width: 30px; height: 40px; align-items: center; margin: 10px" class="">
-                          <div style="padding-bottom: 25px; padding-left: 10px; margin-bottom: 10px">
-                              <p style="font-size: medium">Get it on</p>
+                      <div class="" style="display: flex; border: solid white; border-radius: 5%; padding-bottom: 5%; margin-top: 5px">
+                          <img src="https://www.pngfind.com/pngs/m/65-652094_apple-logo-with-steve-jobs-png-download-white.png" alt=""  style="width: 20px; height: 30px; align-items: center; margin: 10px" class="">
+                          <div style="padding-left: 10px; margin-bottom: 5px;">
+                              <p style="font-size: medium;">Get it on</p>
                               <p style="font-size: medium; font-weight: bold;">Apple Store</p>
                           </div>
                       </div>
                   </div>
-<!--        <div id="footer-right" class="">-->
-<!--            justify-content: space-between;  display: flex;-->
+
                     <div class="footer-right" style="display: flex; justify-content: space-evenly; margin-top: 20px; padding: 20px;">
-                        <div style="column-count: 4; row-gap: 15px; row-span: inherit">
-                              <div class="columns-1">
-                                <h4>Browse</h4>
+                              <div class="columns-1" style="margin-left: 150px; margin-right: 75px">
+                                <h4 style="font-weight: bold; font-size: larger">Browse</h4>
                                   <ul>
+                                      <li>Housing</li>
+                                      <li>Jobs</li>
+                                      <li>Community</li>
+                                      <li>Services</li>
+                                      <li>Discussion</li>
+                                      <li>For sale</li>
+                                      <li>Personal</li>
+                                  </ul>
+                              </div>
+                              <div class="columns-2" style="margin-right: 75px">
+                                <h4 style="font-weight: bold; font-size: larger">Personal</h4>
+                                  <ul>
+                                      <li>Safety</li>
+                                      <li>Scams</li>
+                                      <li>Event Calendar</li>
+                                      <li>System status</li>
                                       <li></li>
                                   </ul>
                               </div>
-                              <div class="columns-2">
-                                <h4>Personal</h4>
+                              <div class="columns-3" style="margin-right: 75px">
+                                <h4 style="font-weight: bold; font-size: larger">Products</h4>
+                                  <ul>
+                                      <li>Open sourdes</li>
+                                      <li>Blog</li>
+                                      <li>Careers</li>
+                                      <li>Best-of-craigslist</li>
+                                      <li>Craigslist job</li>
+                                      <li>Philanthropies</li>
+                                  </ul>
                               </div>
-                              <div class="columns-3">
-                                <h4>Products</h4>
+                              <div class="columns-4" style="margin-right: 20px">
+                                  <h4 style="font-weight: bold; font-size: larger">About</h4>
+                                  <ul>
+                                      <li>Contact us</li>
+                                      <li>FAQs</li>
+                                      <li>Hwlp and support</li>
+                                      <li>Terms of Use</li>
+                                      <li>Privacy policy</li>
+                                  </ul>
                               </div>
-                              <div class="columns-4">
-                                <h4>About</h4>
-                              </div>
-                        </div>
-                  </div>
+                    </div>
       </div>
     </footer>
   </body>
