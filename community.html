@@ -4,10 +4,193 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/styles.css" rel="stylesheet">
+<!--    <link href="/dist/styles.css" rel="stylesheet">-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Community</title>
 </head>
-<body>
-<p class="text-2xl">Hello</p>
+<body class="bg-pink-50">
+
+<!--top nav bar-->
+<div class="flex p-2">
+<!--Breadcrumbs-->
+<div class=" breadcrumbs w-1/2 flex items-center">
+    <ul>
+        <li><a>Boston</a></li>
+        <li><a>Community</a></li>
+        <li>All</li>
+    </ul>
+</div>
+
+<!--search-->
+<div class="flex bg-inherit divide-x rounded rounded-md mx-auto w-1/2">
+    <div class="flex flex-1 px-1">
+        <!--    search input box-->
+        <div class="flex-1 form-control px-1">
+            <input type="text" placeholder="Searching community..." class="input bg-transparent"/>
+        </div>
+        <!--    search logo-->
+        <div class="flex items-center justify-center px-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+            <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+        </svg></div>
+    </div>
+    <div class="px-1">
+        <a class="btn btn-outline btn-secondary normal-case text-sm">Save results</a>
+    </div>
+</div>
+</div>
+<!--end top nav bar-->
+
+<!--side nav & body-->
+<div class="flex">
+
+    <!--side nav-->
+    <div class="w-64">
+        <!--community filter-->
+        <div class="form-control">
+            <label class="label">
+                <span class="label-text">COMMUNITY</span>
+            </label>
+            <label class="label cursor-pointer">
+                <span class="label-text">Musicians</span>
+                <input type="checkbox" checked="checked" class="checkbox checkbox-sm" />
+            </label>
+            <label class="label cursor-pointer">
+                <span class="label-text">Rants & raves</span>
+                <input type="checkbox" checked="checked" class="checkbox checkbox-sm" />
+            </label>
+            <label class="label cursor-pointer">
+                <span class="label-text">Pets</span>
+                <input type="checkbox" checked="checked" class="checkbox checkbox-sm" />
+            </label>
+            <label class="label cursor-pointer">
+                <span class="label-text">General community</span>
+                <input type="checkbox" checked="checked" class="checkbox checkbox-sm" />
+            </label>
+        </div>
+        <!--end community filter-->
+
+        <!--miles from location-->
+        <div class="form-control w-full max-w-xs">
+            <label class="label">
+                <span class="label-text">MILES FROM LOCATION</span>
+            </label>
+            <div class="flex flex-row w-full">
+                <input type="text" placeholder="Miles from" class="input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="Zip" class="input input-bordered w-full max-w-xs" />
+            </div>
+            <label class="label">
+                <span class="label-text-alt">use map...</span>
+            </label>
+        </div>
+        <!--end miles from location-->
+        <!--search filter-->
+        <div class="form-control">
+            <label class="label ">
+                <span class="label-text">SEARCH FILTERS</span>
+            </label>
+            <label class="label cursor-pointer">
+                <span class="label-text">Search titles only</span>
+                <input type="checkbox" class="checkbox checkbox-sm" />
+            </label>
+            <label class="label cursor-pointer">
+                <span class="label-text">Has image</span>
+                <input type="checkbox" class="checkbox checkbox-sm" />
+            </label>
+            <label class="label cursor-pointer">
+                <span class="label-text">Posted today</span>
+                <input type="checkbox" class="checkbox checkbox-sm" />
+            </label>
+            <label class="label cursor-pointer">
+                <span class="label-text">Hide duplicates</span>
+                <input type="checkbox" class="checkbox checkbox-sm" />
+            </label>
+        </div>
+        <!--end search filter-->
+    </div>
+    <!--end side nav-->
+
+<!--main section-->
+<div class="w-full">
+<!--main section header-->
+<div class="flex">
+    <!--list view-->
+    <div class="dropdown dropdown-right dropdown-hover">
+        <label tabindex="0" class="btn m-1">List</label>
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>List</a></li>
+            <li><a>Thumb</a></li>
+            <li><a>Grid</a></li>
+            <li><a>Gallery</a></li>
+            <li><a>Map</a></li>
+        </ul>
+    </div>
+    <!--end list view-->
+    <!--search result title card-->
+    <div class="card w-full bg-base-100 shadow-xl items-center">
+        <div class="card-body">
+            <h2 class="card-title">Search results for all in community</h2>
+        </div>
+    </div>
+    <!--end search result title card-->
+
+    <!--newest result-->
+    <div class="dropdown dropdown-left dropdown-hover">
+        <label tabindex="0" class="btn m-1">Newest</label>
+        <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Newest</a></li>
+            <li><a>Oldest</a></li>
+        </ul>
+    </div>
+    <!--end newest result-->
+
+</div>
+<!--end main section header-->
+
+<!--main section body-->
+<!--table-->
+<div class="overflow-x-auto">
+    <table class="table w-full">
+        <!-- head -->
+        <thead>
+        <tr>
+            <th class="bg-inherit">Title</th>
+            <th class="bg-inherit">Date</th>
+            <th class="bg-inherit">Favorite</th>
+            <th class="bg-inherit">Visibility</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- row 1 -->
+        <tr class="hover">
+            <th>a</th>
+            <td>12 minutes ago</td>
+            <td>logo</td>
+            <td>icon</td>
+        </tr>
+        <!-- row 2 -->
+        <tr class="hover">
+            <th>b</th>
+            <td>yesterday</td>
+            <td>logo</td>
+            <td>icon</td>
+        </tr>
+        <!-- row 3 -->
+        <tr class="hover">
+            <th>c</th>
+            <td>Feb 28</td>
+            <td>logo</td>
+            <td>icon</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<!--end main section body-->
+</div>
+<!--end main section-->
+
+</div>
+<!--end side nav & body-->
+
 </body>
 </html>
