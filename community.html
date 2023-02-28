@@ -11,6 +11,52 @@
 </head>
 <body class="bg-pink-50">
 
+
+<!--header-->
+<div class="navbar bg-base-100">
+    <!--    logo-->
+    <div class="navbar-start">
+        <a href="index.html" class="btn btn-ghost normal-case text-2xl text-secondary">craigslist</a>
+    </div>
+    <!--    creating ad, language, profile, notifications-->
+    <div class="navbar-end">
+        <!--    creating ad-->
+        <button class="btn btn-secondary bg-transparent text-secondary normal-case">+ Create an ad</button>
+        <!--    language-->
+        <div title="Change Language" class="dropdown dropdown-end"><div tabindex="0" class="btn btn-ghost gap-1 normal-case ">
+            <img loading="lazy" width="20" height="20" alt="English" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ec-1f1e7.svg" class="rounded-full"> <span class="flex flex-1 justify-between">En</span>
+            <svg width="12px" height="12px" class="ml-1 hidden h-3 w-3 fill-current opacity-60 sm:inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path></svg></div> <div class="dropdown-content bg-base-200 text-base-content rounded-t-box rounded-b-box top-px mt-16 w-56 overflow-y-auto shadow-2xl"><ul class="menu menu-compact gap-1 p-3" tabindex="0"><li><button class="flex"><img loading="lazy" width="20" height="20" alt="English" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ec-1f1e7.svg"> <span class="flex flex-1 justify-between">English </span></button> </li><li><button class="flex"><img loading="lazy" width="20" height="20" alt="Español" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ea-1f1f8.svg"> <span class="flex flex-1 justify-between">Español </span></button> </li><li><button class="flex"><img loading="lazy" width="20" height="20" alt="Français" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1eb-1f1f7.svg"> <span class="flex flex-1 justify-between">Français </span></button> </li><li><button class="flex"><img loading="lazy" width="20" height="20" alt="Indonesia" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ee-1f1e9.svg"> <span class="flex flex-1 justify-between">Indonesia </span></button> </li><li><button class="flex"><img loading="lazy" width="20" height="20" alt="日本語" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1ef-1f1f5.svg"> <span class="flex flex-1 justify-between">日本語 </span></button> </li><li><button class="flex"><img loading="lazy" width="20" height="20" alt="한국어" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1f0-1f1f7.svg"> <span class="flex flex-1 justify-between">한국어 </span></button> </li><li><button class="flex"><img loading="lazy" width="20" height="20" alt="Português" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1f5-1f1f9.svg"> <span class="flex flex-1 justify-between">Português </span></button> </li><li><button class="flex"><img loading="lazy" width="20" height="20" alt="Русский" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1f7-1f1fa.svg"> <span class="flex flex-1 justify-between">Русский </span></button> </li><li><button class="flex"><img loading="lazy" width="20" height="20" alt="中文" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1e8-1f1f3.svg"> <span class="flex flex-1 justify-between">中文 </span></button> </li><li><button class="flex"><img loading="lazy" width="20" height="20" alt="繁體中文" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.0/svg/1f1f9-1f1fc.svg"> <span class="flex flex-1 justify-between">繁體中文 </span></button> </li></ul></div></div>
+        <!--    profile-->
+        <div class="dropdown dropdown-end">
+            <label tabindex="0" class="btn btn-ghost gap-1 avatar">
+                <div class="w-8 rounded-full">
+                    <img src="https://xsgames.co/randomusers/avatar.php?g=female" />
+                </div>
+                <svg width="12px" height="12px" class="ml-1 hidden h-3 w-3 fill-current opacity-60 sm:inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path></svg>
+            </label>
+            <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                <li>
+                    <a class="justify-between">
+                        Profile
+                        <span class="badge">New</span>
+                    </a>
+                </li>
+                <li><a>Settings</a></li>
+                <li><a>Logout</a></li>
+            </ul>
+        </div>
+        <!--    notifications-->
+        <button class="btn btn-ghost btn-circle">
+            <div class="indicator">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+                <span class="badge badge-xs badge-secondary indicator-item"></span>
+            </div>
+        </button>
+    </div>
+</div>
+<!--header ends-->
+
+
 <!--top nav bar-->
 <div class="flex p-2">
 <!--Breadcrumbs-->
@@ -26,7 +72,7 @@
 <div class="flex bg-inherit divide-x rounded rounded-md mx-auto w-1/2">
     <div class="flex flex-1 px-1">
         <!--    search input box-->
-        <div class="flex-1 form-control px-1">
+        <div class="flex-1 form-control px-1 border rounded-lg">
             <input type="text" placeholder="Searching community..." class="input bg-transparent"/>
         </div>
         <!--    search logo-->
@@ -46,9 +92,10 @@
 
     <!--side nav-->
     <div class="w-64">
+
         <!--community filter-->
-        <div class="form-control">
-            <label class="label">
+        <div class="form-control card bg-base-100 shadow-xl m-1">
+            <label class="label card-body">
                 <span class="label-text">COMMUNITY</span>
             </label>
             <label class="label cursor-pointer">
@@ -71,8 +118,8 @@
         <!--end community filter-->
 
         <!--miles from location-->
-        <div class="form-control w-full max-w-xs">
-            <label class="label">
+        <div class="form-control card bg-base-200 shadow-xl m-1">
+            <label class="label card-body">
                 <span class="label-text">MILES FROM LOCATION</span>
             </label>
             <div class="flex flex-row w-full">
@@ -85,8 +132,8 @@
         </div>
         <!--end miles from location-->
         <!--search filter-->
-        <div class="form-control">
-            <label class="label ">
+        <div class="form-control card bg-base-100 shadow-xl m-1">
+            <label class="label card-body">
                 <span class="label-text">SEARCH FILTERS</span>
             </label>
             <label class="label cursor-pointer">
@@ -115,8 +162,8 @@
 <!--main section header-->
 <div class="flex">
     <!--list view-->
-    <div class="dropdown dropdown-right dropdown-hover">
-        <label tabindex="0" class="btn m-1">List</label>
+    <div class="dropdown dropdown-right dropdown-hover flex items-center">
+        <label tabindex="0" class="btn btn-outline btn-secondary m-1 shadow-xl">List</label>
         <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
             <li><a>List</a></li>
             <li><a>Thumb</a></li>
@@ -129,14 +176,14 @@
     <!--search result title card-->
     <div class="card w-full bg-base-100 shadow-xl items-center">
         <div class="card-body">
-            <h2 class="card-title">Search results for all in community</h2>
+            <h2 class="card-title">Search results for All in Community</h2>
         </div>
     </div>
     <!--end search result title card-->
 
     <!--newest result-->
-    <div class="dropdown dropdown-left dropdown-hover">
-        <label tabindex="0" class="btn m-1">Newest</label>
+    <div class="dropdown dropdown-left dropdown-hover flex items-center">
+        <label tabindex="0" class="btn btn-outline btn-secondary m-1 shadow-xl">Newest</label>
         <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
             <li><a>Newest</a></li>
             <li><a>Oldest</a></li>
@@ -147,6 +194,7 @@
 </div>
 <!--end main section header-->
 
+
 <!--main section body-->
 <!--table-->
 <div class="overflow-x-auto">
@@ -155,6 +203,7 @@
         <thead>
         <tr>
             <th class="bg-inherit">Title</th>
+            <th class="bg-inherit">Location</th>
             <th class="bg-inherit">Date</th>
             <th class="bg-inherit">Favorite</th>
             <th class="bg-inherit">Visibility</th>
@@ -163,24 +212,41 @@
         <tbody>
         <!-- row 1 -->
         <tr class="hover">
-            <th>a</th>
+            <th>Seeking Drummer</th>
+            <td>Boston</td>
             <td>12 minutes ago</td>
-            <td>logo</td>
-            <td>icon</td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+            </svg></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" />
+            </svg>
+            </td>
         </tr>
         <!-- row 2 -->
         <tr class="hover">
-            <th>b</th>
+            <th>Large enclosed yard for dog play</th>
+            <td>West Boston</td>
             <td>yesterday</td>
-            <td>logo</td>
-            <td>icon</td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+            </svg></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" />
+            </svg></td>
         </tr>
         <!-- row 3 -->
         <tr class="hover">
-            <th>c</th>
+            <th>Dunkins a few weeks ago</th>
+            <td>Southie</td>
             <td>Feb 28</td>
-            <td>logo</td>
-            <td>icon</td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+            </svg>
+            </td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88" />
+            </svg></td>
         </tr>
         </tbody>
     </table>
@@ -191,6 +257,50 @@
 
 </div>
 <!--end side nav & body-->
+
+
+
+<!--footer-->
+<footer class="footer p-10 bg-base-200 text-base-content">
+    <div class="text-3xl">
+        <p>craigslist</p>
+    </div>
+    <div>
+        <span class="footer-title">Browse</span>
+        <a class="link link-hover">Housing</a>
+        <a class="link link-hover">Jobs</a>
+        <a href="community.html" class="link link-hover">Community</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Discussion</a>
+        <a class="link link-hover">For sale</a>
+        <a class="link link-hover">Personal</a>
+    </div>
+    <div>
+        <span class="footer-title">Personal</span>
+        <a class="link link-hover">Safety</a>
+        <a class="link link-hover">Scams</a>
+        <a class="link link-hover">Event calendar</a>
+        <a class="link link-hover">System status</a>
+    </div>
+    <div>
+        <span class="footer-title">Products</span>
+        <a class="link link-hover">Open sources</a>
+        <a href="blog.html" class="link link-hover">Blog</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">Best-of-craigslist</a>
+        <a class="link link-hover">Craigslist joe</a>
+        <a class="link link-hover">Philanthropies</a>
+    </div>
+    <div>
+        <span class="footer-title">About</span>
+        <a class="link link-hover">Contact us</a>
+        <a class="link link-hover">FAQs</a>
+        <a class="link link-hover">Help and support</a>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+    </div>
+</footer>
+
 
 </body>
 </html>
