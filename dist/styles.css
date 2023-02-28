@@ -2994,6 +2994,15 @@ html {
   margin-right: auto;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -3008,6 +3017,10 @@ html {
 
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .flex {
