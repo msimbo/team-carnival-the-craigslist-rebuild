@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:color="">
 <head>
     <meta charset="UTF-8">
     <title>Craigslist Rebuild</title>
 </head>
-<body>
-  <header class="" style="width: 100%; height: 10%;">
+<body style="background-color: lightgray; margin-left: 10%; margin-right: 10%; ">
+  <header class="" style="width: 100%; height: 10%; background-color: whitesmoke" >
     <div class="" style="display: flex; justify-content: space-between; align-items: center;">
       <div id="left" class="header-left" style="">
         <h4 style="color: fuchsia; font-size: medium; margin-left: 30%; padding: 10%" class="">craigslist</h4>
@@ -27,7 +27,28 @@
       </div>
     </div>
   </header>
-  <main></main>
+  <main style="margin-left: 5%; margin-right: 5%">
+    <div style="display: flex; justify-content: space-between; margin: 1%;">
+      <div class="left" style="display: flex">
+        <select id="cities" name="cities">
+        <option value="North Jersey"></option>
+        </select>
+        <select name="categories" id="categories" >
+        <option value="Jobs"></option>
+        </select>
+        <select name="job title" id="job title">
+        <option value="Admin/office"></option>
+        </select>
+      </div>
+        <div class="right" style="display: flex; ">
+          <div style="display: flex ; justify-content: space-between; border: none; border-radius: 5px; background-color: white; width: 100%; height: 10%; padding: 10px 20px 30px;">
+              <input type="search" placeholder="Search admin/office..." style=" border: none; background-color: white; width: 75%; height: 100%; padding: 10px 20px; font-size: medium">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiN4mgRtjLWc-wB2ykyqqZMguaaGMttpjdEA&usqp=CAU" alt="" style="width: 35px; height: 35px; border: none; ">
+          </div>
+          <input type="text" placeholder="Save Results" style="border: solid fuchsia; border-radius: 5%; width: 25%; height: 10%; padding: 15px 20px; background-color: lightgray; font-size: x-small; text-align: center;">
+        </div>
+        </div>
+  </main>
   <footer style="width: 100%; height: 33%; background-color: fuchsia; color: white; padding: 6px;">
     <div style="display: flex">
       <div class="footer-left" style="margin-right: 24px; margin-left: 24px;">
