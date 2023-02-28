@@ -15,10 +15,12 @@
 					- Frame 2 - Community  
 					- Frame 3 - Blog  
 				- [ ] HTML design  
-					- [ ] Page 1 - Main  
-						- [ ] Create templates, layouts and basic structures for header, main section and footer  
-						- [ ] Link community category to page 2  
-						- [ ] Decide on how many lists / paragraphs to show on main page  
+					- [x] Page 1 - Main  
+						- [x] Create templates, layouts and basic structures for header, main section and footer  
+						- [x] Link community category to page 2  
+						- [x] Design header and footer to show on each page  
+                        - [x] Design search bar
+                        - [x] Design category bar
 					- [ ] Page 2 - Community  
 						- [ ] Create templates, layouts and basic structures  
 						- [ ] Link Blog link to page 3  
