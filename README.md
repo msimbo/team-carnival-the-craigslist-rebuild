@@ -27,6 +27,10 @@ type: slide
 <!-- itemized the key parts of your process for building this app (framed around the milestones) -->
 - [x] Milestone 1: HTML, CSS, Figma  
 	- [x] Bootstrap TailwindCSS  
+    - [x] Git
+	  - [x] Create group project repository
+	  - [x] Create a branch for each contributor
+	  - [x] Assign issues to contributors
 	- [x] Validate initial push to Vercel  
 	- [x] Figma prototype mock up  
 		- Frame 1 - Main page  
@@ -57,16 +61,12 @@ type: slide
 		- Addressing different needs by providing user friendly style  
 		- Minimalist design and eye catching font family, size and weight  
 		- Implement sufficient use of spacing, positioning, and proximity  
-		- Consistency in design and smooth UX  
-	- [x] Git
-		- [x] Create group project repository
-		- [x] Create a branch for each contributor
-		- [x] Assign issues to contributors
-- [x] Production 
-	- [x] Fork the final design from MSIMBO organization to personal GitHub
-	- [x] Deploy to Vercel
-	- [x] Test HTML & CSS Wirefame on Vercel
-	- [x] Submit the GitHub, Vercel, and Slide deck link
+		- Consistency in design and smooth UX
+    - [x] Production 
+        - [x] Fork the final design from MSIMBO organization to personal GitHub
+        - [x] Deploy to Vercel
+        - [x] Test HTML & CSS Wirefame on Vercel
+        - [x] Submit the GitHub, Vercel, and Slide deck link
 
 
 ---
