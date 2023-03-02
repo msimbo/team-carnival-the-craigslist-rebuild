@@ -5,11 +5,8 @@ type: slide
 ---
 
 # Team Carnivalist App
-
----
-
 <!-- A Screenshot of a section of the App) -->
-![A Screenshot of a section of the App](https://i.imgur.com/raMU5TC.png){:height 542, :width 573}
+![A Screenshot of a section of the App](https://i.imgur.com/raMU5TC.png)
 
 ---
 
