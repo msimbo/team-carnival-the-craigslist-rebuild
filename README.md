@@ -4,21 +4,25 @@ tags: ["msimbo", "presentation"]
 type: slide
 ---
 
-# AppName: Team Carnival - The Craigslist Rebuild
+# Team Carnivalist App
+
+---
+
 <!-- A Screenshot of a section of the App) -->
-![A Screenshot of a section of the App](https://i.imgur.com/raMU5TC.png)
+![A Screenshot of a section of the App](https://i.imgur.com/raMU5TC.png){:height 542, :width 573}
+
 ---
 
 ### 🤔 Problem
 <!-- Share a brief detail on the problem you're trying to solve) -->
->#### `Description:` Craigslist has hired our team to help re-design three sections of their website
+#### `Description:` Craigslist has hired our Team Carnival to help re-design three sections of their website
+>The ULEM's MSIMBO code academy group project. MSB-FY23C1 - Team Carnival - The Craigslist Rebuild
 
 ---
 
 ### 😃 Solution
 <!-- Share your brief solution to this problem, your description should be non-technical) -->
->#### `Goals:` Completing tasks utilizing HTML and CSS to make sure Craigslist refactoring works smoothly and as designed.
-
+#### `Goals:` Completing tasks utilizing HTML and CSS to make sure Craigslist refactoring works smoothly and as designed.
 
 ---
 
