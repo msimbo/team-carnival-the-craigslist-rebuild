@@ -89,6 +89,6 @@ type: slide
 	- https://github.com/msimbo/team-carnival-the-craigslist-rebuild
 	- https://github.com/AmirhosseinOlyaei/team-carnival-the-craigslist-rebuild
 - [x] Vercel
-	- [https://team-carnival-the-craigslist-rebuild-msimbo.vercel.app/](https://team-carnival-the-craigslist-rebuild.vercel.app/)
+	- https://team-carnival-the-craigslist-rebuild.vercel.app/
 - [x] Slide Deck
 	- https://hackmd.io/@PEOik05hTQmuXIgPTSOCRQ/SJWyesaAj
