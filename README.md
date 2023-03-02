@@ -1,6 +1,6 @@
-
-title: App Presentation 
-tags: ["msimbo"]
+---
+title: The Craigslist App 
+tags: ["msimbo", "presentation"]
 type: slide
 ---
 
