@@ -4,21 +4,22 @@ tags: ["msimbo", "presentation"]
 type: slide
 ---
 
-# AppName: Team Carnival - The Craigslist Rebuild
+# Team Carnivalist App
 <!-- A Screenshot of a section of the App) -->
 ![A Screenshot of a section of the App](https://i.imgur.com/raMU5TC.png)
+
 ---
 
 ### 🤔 Problem
 <!-- Share a brief detail on the problem you're trying to solve) -->
->#### `Description:` Craigslist has hired our team to help re-design three sections of their website
+#### `Description:` Craigslist has hired our Team Carnival to help re-design three sections of their website
+>The ULEM's MSIMBO code academy group project. MSB-FY23C1 - Team Carnival - The Craigslist Rebuild
 
 ---
 
 ### 😃 Solution
 <!-- Share your brief solution to this problem, your description should be non-technical) -->
->#### `Goals:` Completing tasks utilizing HTML and CSS to make sure Craigslist refactoring works smoothly and as designed.
-
+#### `Goals:` Completing tasks utilizing HTML and CSS to make sure Craigslist refactoring works smoothly and as designed.
 
 ---
 
@@ -26,6 +27,10 @@ type: slide
 <!-- itemized the key parts of your process for building this app (framed around the milestones) -->
 - [x] Milestone 1: HTML, CSS, Figma  
 	- [x] Bootstrap TailwindCSS  
+    - [x] Git
+	  - [x] Create group project repository
+	  - [x] Create a branch for each contributor
+	  - [x] Assign issues to contributors
 	- [x] Validate initial push to Vercel  
 	- [x] Figma prototype mock up  
 		- Frame 1 - Main page  
@@ -56,16 +61,12 @@ type: slide
 		- Addressing different needs by providing user friendly style  
 		- Minimalist design and eye catching font family, size and weight  
 		- Implement sufficient use of spacing, positioning, and proximity  
-		- Consistency in design and smooth UX  
-	- [x] Git
-		- [x] Create group project repository
-		- [x] Create a branch for each contributor
-		- [x] Assign issues to contributors
-- [x] Production 
-	- [x] Fork the final design from MSIMBO organization to personal GitHub
-	- [x] Deploy to Vercel
-	- [x] Test HTML & CSS Wirefame on Vercel
-	- [x] Submit the GitHub, Vercel, and Slide deck link
+		- Consistency in design and smooth UX
+    - [x] Production 
+        - [x] Fork the final design from MSIMBO organization to personal GitHub
+        - [x] Deploy to Vercel
+        - [x] Test HTML & CSS Wirefame on Vercel
+        - [x] Submit the GitHub, Vercel, and Slide deck link
 
 
 ---
