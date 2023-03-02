@@ -65,7 +65,7 @@ type: slide
     - [x] Production 
         - [x] Fork the final design from MSIMBO organization to personal GitHub
         - [x] Deploy to Vercel
-        - [x] Test HTML & CSS Wirefame on Vercel
+        - [x] Test HTML & CSS Wireframe on Vercel
         - [x] Submit the GitHub, Vercel, and Slide deck link
 
 
