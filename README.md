@@ -28,8 +28,8 @@ type: slide
 - [x] Milestone 1: HTML, CSS, Figma  
 	- [x] Bootstrap TailwindCSS  
     - [x] Git
-	  - [x] Create group project repository
-	  - [x] Create a branch for each contributor
+	  - [x] Create a group project repository
+	  - [x] Create a branch for each member
 	  - [x] Assign issues to contributors
 	- [x] Validate initial push to Vercel  
 	- [x] Figma prototype mock up  
@@ -80,3 +80,15 @@ type: slide
 - GitHub
 - Vercel
 - Webstorm
+
+---
+
+- [x] Figma
+	- https://tinyurl.com/2ormfppo
+- [x] GitHub
+	- https://github.com/msimbo/team-carnival-the-craigslist-rebuild
+	- https://github.com/AmirhosseinOlyaei/team-carnival-the-craigslist-rebuild
+- [x] Vercel
+	- [https://team-carnival-the-craigslist-rebuild-msimbo.vercel.app/](https://team-carnival-the-craigslist-rebuild.vercel.app/)
+- [x] Slide Deck
+	- https://hackmd.io/@PEOik05hTQmuXIgPTSOCRQ/SJWyesaAj
